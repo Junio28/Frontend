@@ -23,4 +23,17 @@ Configurar angular.js en esta parte:
             ]
 
 
-Ingresar en la página https://bootswatch.com/
+Ingresar en la pï¿½gina https://bootswatch.com/
+
+Para los componenetes se usa ng generate:
+
+header 
+ng g c componenets/layouts/main/header/menu
+
+content
+ng g c componenets/layouts/main/content/titulo
+ng g c componenets/layouts/main/content/info
+
+footer
+ng g c componenets/layouts/main/footer/copyright
+
