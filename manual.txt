@@ -4,7 +4,7 @@ Crear el proyecto: ng new Frontend
 
 Entrar al proyecto: cd Frontend
 
-Compilar dentro del proyecto:ng serve o npm start 
+Compilar dentro del proyecto:ng serve o npm start, y se prueba en el navegador con localhot:4200
 
 Instalar componenetes
 npm install --save bootstrap popper.js jquery @fortawesome/fontawesome-free bootswatch
