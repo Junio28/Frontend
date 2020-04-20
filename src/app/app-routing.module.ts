@@ -10,6 +10,7 @@ import { CreateProductComponent } from './componenets/product/create-product/cre
 import { ListTypeproductComponent} from './componenets/typeproduct/list-typeproduct/list-typeproduct.component';
 import { CreateTypeproductComponent } from './componenets/typeproduct/create-typeproduct/create-typeproduct.component';
 import { ListSaleComponent } from './componenets/sale/list-sale/list-sale.component';
+import { CreateSaleComponent } from './componenets/sale/create-sale/create-sale.component';
 
 
 const routes: Routes = [{
@@ -55,6 +56,10 @@ const routes: Routes = [{
 {
   path: 'venta',
   component: ListSaleComponent
+},
+{
+  path: 'venta/nuevo',
+  component: CreateSaleComponent
 }
 ];
 
