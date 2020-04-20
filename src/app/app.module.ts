@@ -8,6 +8,7 @@ import { FormLoginComponent } from './componenets/user/form-login/form-login.com
 import { ListUserComponent } from './componenets/user/list-user/list-user.component';
 import { CopyrightComponent } from './componenets/layouts/main/footer/copyright/copyright.component';
 import { CreateUserComponent } from './componenets/user/create-user/create-user.component';
+import { InfoComponent } from './componenets/layouts/main/content/info/info.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CreateUserComponent } from './componenets/user/create-user/create-user.
     FormLoginComponent,
     ListUserComponent,
     CopyrightComponent,
-    CreateUserComponent
+    CreateUserComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
