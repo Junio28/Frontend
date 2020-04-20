@@ -12,6 +12,7 @@ import { InfoComponent } from './componenets/layouts/main/content/info/info.comp
 import { ListClientComponent } from './componenets/client/list-client/list-client.component';
 import { CreateClientComponent } from './componenets/client/create-client/create-client.component';
 import { ListProductComponent } from './componenets/product/list-product/list-product.component';
+import { CreateProductComponent } from './componenets/product/create-product/create-product.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ListProductComponent } from './componenets/product/list-product/list-pr
     InfoComponent,
     ListClientComponent,
     CreateClientComponent,
-    ListProductComponent
+    ListProductComponent,
+    CreateProductComponent
   ],
   imports: [
     BrowserModule,
