@@ -9,6 +9,7 @@ import { ListUserComponent } from './componenets/user/list-user/list-user.compon
 import { CopyrightComponent } from './componenets/layouts/main/footer/copyright/copyright.component';
 import { CreateUserComponent } from './componenets/user/create-user/create-user.component';
 import { InfoComponent } from './componenets/layouts/main/content/info/info.component';
+import { ListClientComponent } from './componenets/client/list-client/list-client.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InfoComponent } from './componenets/layouts/main/content/info/info.comp
     ListUserComponent,
     CopyrightComponent,
     CreateUserComponent,
-    InfoComponent
+    InfoComponent,
+    ListClientComponent
   ],
   imports: [
     BrowserModule,
